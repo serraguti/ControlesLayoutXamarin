@@ -12,7 +12,7 @@ namespace ControlesLayout
             //SI DESEAMOS NAVEGACION DEBEMOS LANZAR
             //UNA NUEVA NavigationPage
             //MainPage = new NavigationPage(new PaginaMenu());
-            MainPage = new TiposAlerta();
+            MainPage = new PaginaEstilos();
         }
 
         protected override void OnStart()

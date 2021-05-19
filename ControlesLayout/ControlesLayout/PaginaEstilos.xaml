@@ -17,6 +17,9 @@
     </ContentPage.Resources>
     <ContentPage.Content>
         <StackLayout>
+            <Button Text="Soy un boton"
+                    HorizontalOptions="FillAndExpand"
+                    Style="{StaticResource botonverde}"/>
             <Label Text="Ejemplo estilos"
                    Style="{StaticResource estiloLabel}"/>
             <Label Text="Welcome to Xamarin.Forms!"
